@@ -10,4 +10,9 @@
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="11.0.0-preview.4.26230.115" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference OutputItemType="Analyzer"
+                        ReferenceOutputAssembly="false" Include="..\ZordNest.Navigator.SourceGenerator\ZordNest.Navigator.SourceGenerator.csproj" />
+    </ItemGroup>
+
 </Project>
