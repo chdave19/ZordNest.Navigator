@@ -27,7 +27,7 @@ entire window as one navigation host.
 - **Sub-route eviction** — evicting a parent route automatically evicts all child routes
 - **Bounded back-stack** — configurable depth limit to prevent memory pressure
 - **Source Generator** — zero reflection at runtime via `[Navigable("key")]` attribute auto-registration
-- **Framework agnostic** — works with Community Toolkit MVVM, ReactiveUI, or plain viewmodels
+- **Framework agnostic** — works with AvaloniaUI, MAUI, Community Toolkit MVVM, and plain viewmodels
 - **Dependency Injection** - It uses the official Microsoft DI container to resolve scoped viewmodels instance, and provides extension methods on
   the IServiceCollection for configuring and kick-starting the library. 
 
